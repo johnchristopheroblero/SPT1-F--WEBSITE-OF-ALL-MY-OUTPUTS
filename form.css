@@ -1,0 +1,54 @@
+body
+{
+	margin: 40px;
+	padding: 40px;
+	background: url('image/img.jpeg')
+    no-repeat center fixed;
+    background-size: cover;
+	background-position: 5px 5px;
+	border-style: solid solid solid double;
+	border-width: 10px;
+	border-color: #0101DF #0101DF #0101DF #00FFFF;
+}
+section pic .img
+{
+	transform: rotateZ(180deg) scale(0);
+	transform-origin: right;
+	transition: .5s ease-in;
+}
+section pic:hover img
+{
+	transform: rotateZ(360deg) scale(1);
+}
+section ul
+{
+    text-align: center;
+	display: inline-block;
+	margin-left: 150px;
+}
+hr
+{
+	border-top: 5px solid blue;
+}
+section .action
+{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	position: relative;
+	margin: 0 0 35px 0;
+}
+section .form
+{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 30px;
+}
+section p
+{
+	text-align: center;
+}
